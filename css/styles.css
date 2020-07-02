@@ -1,0 +1,142 @@
+body{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+p {
+  color: #5d5b5b;
+}
+/* Headings */
+.big-heading{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 2.5rem 0;
+}
+.navbar-brand {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+/* title */
+#title{
+  background: linear-gradient(to right bottom, #d3ebee 50%, #fff 50%);
+  text-align: left;
+}
+
+#title .container-fluid {
+  
+  padding:  3% 7% 15%;
+}
+
+#title p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+}
+/* title buttons */
+.title-button {
+  margin: 3.5% 1.9%;
+}
+/* title-image */
+.title-image {
+
+  width: 88%;
+  border-radius: 20px;
+  border: 2px solid #98e1e9;
+
+  /* transform: rotate(45deg); */
+}
+/* Feature */
+#features {
+  padding: 7% 15%;
+}
+.feature-title{
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+.feature-box {
+  padding: 5%;
+}
+
+.features-icon {
+  color: rgb(162, 231, 243);
+  margin-bottom: 1rem;
+}
+.features-icon:hover {
+  color: rgb(114, 236, 171);
+}
+/* testimonials */
+#testimonials {
+
+  background-color: #cceff3;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  margin: 20px;
+  width: 50%;
+  border-radius: 20px;
+}
+.testimonial-text{
+  
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+
+}
+.pricing-text-big{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* media quarie */
+@media (max-width: 1193px) {
+  #title {
+    text-align: center;
+  }
+}
+/* Call to action */
+#cta {
+  padding: 7% 15%;
+  background-color: #cceff3;
+
+}
+
+.cta-images {
+  color: #000;
+  margin: 10px;
+}
+/* footer */
